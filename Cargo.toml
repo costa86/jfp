@@ -1,0 +1,14 @@
+[package]
+name = "jfp"
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0-only"
+description = "A CLI to parse json files, being able to output properties and array indexes"
+keywords = ["cli", "json", "parse", "file"]
+repository = "https://github.com/costa86/jfp"
+authors = ["Lorenzo Costa <http://www.costa86.tech>"]
+readme = "README.md"
+
+[dependencies]
+clap = { version = "3.2.5", features = ["derive"] }
+serde_json = { version = "1.0" }
